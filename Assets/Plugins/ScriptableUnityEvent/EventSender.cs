@@ -266,6 +266,14 @@ public class EventSender : MonoBehaviour
         {
             target = receiver.GetComponent<RectTransform>();
         }
+        else if ("PlayAnim".Equals(targetTypeStr))
+        {
+            target = receiver.GetComponent<PlayAnim>();
+        }
+        else if ("PlayAnimator".Equals(targetTypeStr))
+        {
+            target = receiver.GetComponent<PlayAnimator>();
+        }
         else
         {
             Debug.LogWarning("使用反射获取, 会影响性能, 请在上面添加 if 处理:" + targetTypeStr);
@@ -441,26 +449,4 @@ public class EventSender : MonoBehaviour
     {
         LoadEvents();
     }
-
-#if UNITY_EDITOR
-
-    [ContextMenu("Call 0")]
-    public void Call0()
-    {
-        ZzCallEvent(0);
-    }
-
-    [ContextMenu("Call 1")]
-    public void Call1()
-    {
-        ZzCallEvent(1);
-    }
-
-    [ContextMenu("Call 2")]
-    public void Call2()
-    {
-        ZzCallEvent(2);
-    }
-
-#endif
 }

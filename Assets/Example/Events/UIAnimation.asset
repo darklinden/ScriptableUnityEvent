@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 556dc56a3541945bc9db5dc1fc44aa31, type: 3}
-  m_Name: events
+  m_Name: UIAnimation
   m_EditorClassIdentifier: 
+  LastModified: 0
   Events:
   - PersistentCalls:
-    - targetId: fb1d9da6b8fa149c2aea3f6c034ef54b
-      targetType: UnityEngine.GameObject
-      methodName: SetActive
+    - targetId: 115bfb445d2ff4fb99b6a231ece8e4e1
+      targetType: PlayAnim
+      methodName: Play
       intArgument: 0
       floatArgument: 0
-      stringArgument: 
+      stringArgument: D3Animation
       boolArgument: 0
-  - PersistentCalls:
-    - targetId: 365a1b08cbcb9492e81f0afeab1786fa
-      targetType: UnityEngine.GameObject
-      methodName: SetActive
+    - targetId: 8ce71208969e84feeac154d34984911f
+      targetType: PlayAnimator
+      methodName: Play
       intArgument: 0
       floatArgument: 0
-      stringArgument: 
-      boolArgument: 1
+      stringArgument: D3Animator
+      boolArgument: 0

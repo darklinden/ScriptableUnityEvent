@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 24
-  productGUID: 8b3bfafe7e86b44379ae4874f65a4c86
+  productGUID: 0c83327d53fee40a6a77cbff5ba75869
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: UnityEventScriptable
+  productName: ScriptableUnityEvent
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -674,7 +674,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: NG2T3buWesa5olZds4IxNgr3hNiZBz3l
+  ps4Passcode: GzMZRlU2eb8kWTHAQO7GcBvOhpkOX7Uc
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -749,14 +749,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: UnityEventScriptable
+  metroPackageName: ScriptableUnityEvent
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: UnityEventScriptable
+  metroApplicationDescription: ScriptableUnityEvent
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
